@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    padding-left: 50px;
+}
+
+html {
+    font-size: 1.2em;
+    font-family: "Caveat", cursive;
+}
+header {
+    background-color:darkviolet;
+    text-align: center;
+    padding: 50px 20px;
+}
+footer {
+    background-color: cadetblue;
+    padding: 20px;
+}
+.about {
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;   
+}
+.articles {
+    background-color: yellowgreen;
+}
+.content {
+    padding: 20px;
+    box-shadow: 10px;
+    background-color: chocolate;
+    text-align: center;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.Citata {
+    background-color: blueviolet;
+    padding: 20px;
+    border: 20px;
+    border-radius: 20px;
+}
+dt {
+    text-align: center;
+    gap: 20px;
+    padding: 20px
+}
+img {
+    border: 20px;
+    border-radius: 20px;
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: brown;
+}
+a:focus {
+    color: chartreuse;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: darkgoldenrod;
+}
+ header a {
+    color: indianred;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+ header a:hover,
+ header a:focus,
+ header a:active {
+    text-decoration: underline;
+ }
+ .articles li:nth-child(even) {
+    background-color: darkred;
+ }
+ h2::after {
+    content:'new';
+    font-size: 10px;
+    color: purple;
+    margin-left: 10px;
+ }
+ h2::before {
+    content: "\F6D2";
+    font-family: "bootstrap-icons";
+    color: crimson;
+ }
+ a {
+    color: darkblue;
+ }
+ .articles li:nth-child(11) a::after {
+    border: 20px;
+    background-color: coral;
+    color: darkblue;
+    content: " Важно!";
+ }
+p::first-line {
+    letter-spacing: 20px;
+}
+p:lang(en) {
+    border: 20px;
+    color: darkblue;
+    text-align: left;
+}
+main p {
+    border-radius: 40px;
+}
+footer img {
+    border-radius: 40px;
+    border-color: aliceblue;
+}
