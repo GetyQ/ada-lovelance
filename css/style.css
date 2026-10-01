@@ -128,3 +128,25 @@ img + p {
 .TestFont {
     font-family: Libre Caslon Condensed;
 }
+table {
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color: antiquewhite;
+}
+th:first-child {
+    border: 20px;
+    background-color: aquamarine
+}
+th:last-child {
+    border: 20px;
+    background-color: chartreuse;
+}
+#contact-form input[type='text'] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: blue 1px;
+    border-color: green;
+}
