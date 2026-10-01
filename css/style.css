@@ -114,7 +114,17 @@ p:lang(en) {
 main p {
     border-radius: 40px;
 }
-footer img {
+h3 img {
     border-radius: 40px;
     border-color: aliceblue;
+    border: 100px;
+}
+main h2 {
+    background-color: aliceblue;
+}
+img + p {
+    margin-top: 200px;
+}
+.TestFont {
+    font-family: Libre Caslon Condensed;
 }
