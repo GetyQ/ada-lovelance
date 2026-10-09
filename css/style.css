@@ -150,3 +150,32 @@ th:last-child {
     border: blue 1px;
     border-color: green;
 }
+#contact-form label {
+    color: aliceblue;
+}
+.feedback {
+    background-color: darkgoldenrod;
+    padding: 6px 20px 20px 20px;
+}
+#contact-form select,
+#contact-form textarea {
+    width: 265px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: burlywood solid 1px;
+    background-color: burlywood;
+}
+button {
+    width: 160px;
+    height: 35px;
+    margin-top: 10px;
+    border: solid hotpink;
+    background-color: azure;
+    color: brown;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: rebeccapurple;
+    border: solid yellow;
+}

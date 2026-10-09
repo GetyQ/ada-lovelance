@@ -86,14 +86,46 @@
             <li><h3><a href="termini.html">Термины</a></h3></li>
         </ol>
        </section>
-       <section class="feedback" id="feedback">
+    <section class="feedback" id="feedback">
         <h2>Обратная связь</h2>
         <form action="" id="contact-form">
-            <div><label for="login">Введите логин</label><br></div>
-            <div><label for="pass">Введите пароль</label><br></div>
-            <div><input type="text" placeholder="Логин" name="login" id="login"><br></div>
-            <div></div><input type="password" placeholder="Пароль" name="pass" id="pass"><br></div>
-            <div><input type="submit" value="Войти"></div>
+            <div class="form_item">
+                <label for="select">Тема</label><br>
+                <select id="select" name="select">
+                    <option value="1">Заказать услуги</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+            <div class="for_item">
+            <label for="input">Имя</label><br>
+            <input type="text" id="input" > 
+            </div>
+            <div class="for_item">
+                <label for="input">E-mail</label><br>
+                <input type="text" id="input" >
+            </div>
+            <div class="for_item">
+                <label for="input">Текс сообщения</label><br>
+                <textarea name="input" id="" cols="30" rows="10" ></textarea>
+            </div>
+            <div>
+                <label for="date">Дата</label><br>
+                <input type="date" id="date" pattern="[0-9]{2}\.[0-9]{2}\.[0-9]{4}" >
+            </div>
+            <div class="for_item">
+                <label for="agree">
+                    <input type="checkbox" value="">Согласен с политикой конфиденциальности
+                </label>
+            </div>
+            <div class="for_item">
+                <label for="tel">Телефон</label><br>
+                    <input type="tel" value="" pattern="\+7\-[0-9] {3} \-[0-9]{3}\-[0-9]{2}\-[0-9]{2}">
+            </div>
+            <div>
+                <button type="submit">Отправить</button>
+            </div>
         </form>
     </section>
     </main>
