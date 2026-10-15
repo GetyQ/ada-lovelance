@@ -131,6 +131,7 @@ img + p {
 table {
     border-collapse: collapse;
 }
+/* 2-ая */
 tr:nth-child(odd) {
     background-color: antiquewhite;
 }
@@ -170,7 +171,7 @@ button {
     height: 35px;
     margin-top: 10px;
     border: solid hotpink;
-    background-color: azure;
+    background-color: purple;
     color: brown;
     font-size: 16px;
     text-transform: uppercase;
@@ -179,3 +180,8 @@ button:hover {
     background-color: rebeccapurple;
     border: solid yellow;
 }
+.for_item {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* 2-ая */
